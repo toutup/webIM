@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>聊天室</title>
+    <script src="http://libs.baidu.com/jquery/1.4.2/jquery.min.js"></script>
+    <script src="/js/index.js"></script>
+    <link type="text/css" rel="stylesheet" href="/css/index.css"/>
+</head>
+<body>
+<div class="row">
+    <div class="left-column">
+        <div class="user-search"></div>
+        <div class="user-list">
+            <ul>
+                <li>
+                    <div class="user-list-avtor">
+                        <img src="https://pic.rmb.bdstatic.com/bjh/news/f0f187a80dabbd8442780497a26ab435.jpeg">
+                    </div>
+                    <div class="user-list-info">
+                        <div>
+                            <span>张冬冬</span>
+                        </div>
+                        <div>
+                            <span>text</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="right-column">
+        <div class="room-title"></div>
+        <div class="room-message">
+            <div class="message-list">
+                <ul id = "message-list-ul"></ul>
+            </div>
+        </div>
+        <div class="send-message">
+            <div class="text-box" contenteditable="true" id = "text-box"></div>
+            <div class="send-button">
+                <button class="button" id = "button">发&nbsp;送</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
